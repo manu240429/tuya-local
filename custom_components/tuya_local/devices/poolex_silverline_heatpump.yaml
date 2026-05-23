@@ -25,19 +25,19 @@ entities:
         name: preset_mode
         type: string
         mapping:
-          - dps_val: Auto
+          - dps_val: auto
             value: auto
-          - dps_val: Cool
-            value: smart_cool
-          - dps_val: Heat
-            value: smart_heat
-          - dps_val: BoostHeat
+          - dps_val: powerful_h
             value: quick_heat
-          - dps_val: BoostCool
-            value: quick_cool
-          - dps_val: SilentHeat
+          - dps_val: heat
+            value: smart_heat
+          - dps_val: silent_h
             value: quiet_heat
-          - dps_val: SilentCool
+          - dps_val: cool
+            value: smart_cool
+          - dps_val: powerful_c
+            value: quick_cool
+          - dps_val: silent_c
             value: quiet_cool
   - entity: binary_sensor
     name: Water flow
